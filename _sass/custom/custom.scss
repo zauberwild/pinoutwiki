@@ -1,0 +1,37 @@
+// Print-only styles.
+
+
+@media (min-width: 50rem) {
+	.main {
+		max-width: 150%;
+		margin-left: 264px; // make space for side-bar, reasoning for number see: .side-bar -> width
+
+	}
+
+	.side-bar {
+		width: 264px; // set the width to the seemingly fixed value of min-width
+	}
+
+	.search-results {
+		width: 100%;
+	}
+
+	.search-active .search-input-wrap {
+		max-width: 10000px;
+		width: 100%;
+	}
+}
+
+.table-wrapper {
+	display: inline-block;
+	width: unset;
+}
+
+img {
+	display: flex;
+	// max-width: 750px;
+	max-height: 750px;
+	// width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+}
