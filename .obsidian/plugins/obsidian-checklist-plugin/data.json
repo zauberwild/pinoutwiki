@@ -1,0 +1,12 @@
+{
+  "todoPageName": "todo",
+  "showChecked": true,
+  "groupBy": "page",
+  "sortDirection": "old->new",
+  "ignoreFiles": "",
+  "includeFiles": "",
+  "lookAndFeel": "classic",
+  "_collapsedSections": [
+    "Abitur (Index).md"
+  ]
+}

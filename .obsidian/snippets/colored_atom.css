@@ -1,0 +1,323 @@
+.theme-dark {
+
+	--background-secondary-alt: #161a1f;
+	--background-modifier-cover: var(--background-secondary-alt);
+	--text-highlight-bg: rgba(255, 251, 0, 0.39);
+	--text-mono: #98c379;
+
+	--heading1: #e06c75;
+	--heading2: #d88e49;
+	--heading3: #e5cc7b;
+	--heading4: #98c379;
+	--heading5: #56b6c2;
+	--heading6: #c678dd;
+}
+
+
+.theme-light {
+	--yellow: #e0b700;
+
+	--heading1: #e06c75;
+	--heading2: #d88e49;
+	--heading3: #e7c710;
+	--heading4: #98c379;
+	--heading5: #56b6c2;
+	--heading6: #c678dd;
+}
+
+body {
+	--font-text: "Inter";
+	font-feature-settings: "tnum", "case", "cv02", "cv03", "cv04", "cv07", "cv09", "cv08", "cv05", "calt"0;
+	--font-heading: "IBM Plex Mono";
+	--font-monospace: "Space Mono"
+}
+
+/* images and tables should be horizontally centered*/
+.markdown-preview-view img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.markdown-preview-view table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+/* make bold text a little bit bolder */
+strong,
+.cm-s-obsidian span.cm-strong {
+	font-weight: bolder;
+	font-family: var(--font-monospace);
+}
+
+i,
+span.cm-em,
+em {
+	font-family: var(--font-monospace);
+
+}
+
+/* * #E HEADINGS */
+h1,
+.markdown-preview-view h1 a,
+.cm-header-1,
+.cm-header.cm-header-1.cm-hmd-internal-link.cm-link-alias,
+h2,
+.markdown-preview-view h2 a,
+.cm-header-2,
+.cm-header.cm-header-2.cm-hmd-internal-link.cm-link-alias,
+h3,
+.markdown-preview-view h3 a,
+.cm-header-3,
+.cm-header.cm-header-3.cm-hmd-internal-link.cm-link-alias,
+h4,
+.markdown-preview-view h4 a,
+.cm-header-4,
+.cm-header.cm-header-4.cm-hmd-internal-link.cm-link-alias,
+h5,
+.markdown-preview-view h5 a,
+.cm-header-5,
+.cm-header.cm-header-5.cm-hmd-internal-link.cm-link-alias,
+h6,
+.markdown-preview-view h6 a,
+.cm-header-6,
+.cm-header.cm-header-6.cm-hmd-internal-link.cm-link-alias {
+	font-family: var(--font-heading);
+	font-weight: 400 !important;
+}
+
+h1,
+.markdown-preview-view h1 a,
+.cm-header-1,
+.cm-header.cm-header-1.cm-hmd-internal-link.cm-link-alias,
+.HyperMD-header.HyperMD-header-1.cm-line {
+	color: var(--heading1) !important;
+}
+
+h2,
+.markdown-preview-view h2 a,
+.cm-header-2,
+.cm-header.cm-header-2.cm-hmd-internal-link.cm-link-alias,
+.HyperMD-header.HyperMD-header-2.cm-line{
+	color: var(--heading2) !important;
+}
+
+h3,
+.markdown-preview-view h3 a,
+.cm-header-3,
+.cm-header.cm-header-3.cm-hmd-internal-link.cm-link-alias,
+.HyperMD-header.HyperMD-header-3.cm-line {
+	color: var(--heading3) !important;
+}
+
+h4,
+.markdown-preview-view h4 a,
+.cm-header-4,
+.cm-header.cm-header-4.cm-hmd-internal-link.cm-link-alias,
+.HyperMD-header.HyperMD-header-4.cm-line {
+	color: var(--heading4) !important;
+}
+
+h5,
+.markdown-preview-view h5 a,
+.cm-header-5,
+.cm-header.cm-header-5.cm-hmd-internal-link.cm-link-alias,
+.HyperMD-header.HyperMD-header-5.cm-line {
+	color: var(--heading5) !important;
+}
+
+h6,
+.markdown-preview-view h6 a,
+.cm-header-6,
+.cm-header.cm-header-6.cm-hmd-internal-link.cm-link-alias,
+.HyperMD-header.HyperMD-header-6.cm-line {
+	color: var(--heading6) !important;
+}
+
+.markdown-preview-view h1 a,
+.markdown-preview-view h2 a,
+.markdown-preview-view h3 a,
+.markdown-preview-view h4 a,
+.markdown-preview-view h5 a,
+.markdown-preview-view h6 a {
+	text-decoration: underline !important;
+}
+
+/* #e */
+
+
+
+/* * #E ### ### ### PDF ZONE ### ### ### */
+.theme-dark {
+	--pdf-text-normal: #333333;
+	--pdf-text-accent: #61afef;
+	--pdf-code-background-color: #f3f4f4;
+	--pdf-code-background-border-color: #e7eaed;
+	--pdf-code-color: var(--pdf-text-normal);
+	--pdf-quote-border-color: #dddddd;
+	--pdf-text-highlight-bg: #ffff59;
+	--pdf-table-header-bg: #f8f8f8;
+	--pdf-table-border: #dfe2e5;
+}
+
+.theme-light {
+	--pdf-text-normal: #333333;
+	--pdf-text-accent: #61afef;
+	--pdf-code-background-color: #f3f4f4;
+	--pdf-code-background-border-color: #e7eaed;
+	--pdf-code-color: var(--pdf-text-normal);
+	--pdf-quote-border-color: #dddddd;
+	--pdf-text-highlight-bg: var(--text-highlight-bg);
+	--pdf-table-header-bg: #f8f8f8;
+	--pdf-table-border: #dfe2e5;
+}
+
+
+@media print {
+
+	/* * GENERAL FORMATTING */
+	p,
+	a,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.cm-header-1,
+	.cm-header.cm-header-1.cm-hmd-internal-link.cm-link-alias,
+	.cm-header-2,
+	.cm-header.cm-header-2.cm-hmd-internal-link.cm-link-alias,
+	.cm-header-3,
+	.cm-header.cm-header-3.cm-hmd-internal-link.cm-link-alias,
+	.cm-header-4,
+	.cm-header.cm-header-4.cm-hmd-internal-link.cm-link-alias,
+	.cm-header-5,
+	.cm-header.cm-header-5.cm-hmd-internal-link.cm-link-alias,
+	.cm-header-6,
+	.cm-header.cm-header-6.cm-hmd-internal-link.cm-link-alias,
+	th,
+	td,
+	li,
+	body {
+		color: var(--pdf-text-normal) !important;
+		font-size: 14px;
+		font-family: "Inter";
+	}
+
+	/* * links */
+	a {
+		text-decoration: underline !important;
+		color: var(--pdf-text-accent) !important;
+	}
+
+	/* * tags */
+	a.tag {
+		visibility: hidden !important;
+		background-color: var(--pdf-code-background-color) !important;
+		/* border: 1px solid #e7eaed !important; */
+		text-decoration: underline !important;
+		color: var(--pdf-text-accent) !important;
+	}
+
+	/* * HEADINGS */
+	h1,
+	h1 a {
+		font-size: 26px !important;
+		font-weight: 900 !important;
+		text-decoration: underline;
+	}
+
+	h2,
+	h2 a {
+		font-size: 22px !important;
+		font-weight: normal !important;
+		text-decoration: underline;
+	}
+
+	h3,
+	h3 a {
+		font-size: 20px !important;
+		font-weight: 900 !important;
+	}
+
+	h4,
+	h4 a {
+		font-size: 18px !important;
+		font-weight: normal !important;
+	}
+
+	h5,
+	h5 a {
+		font-size: 14px !important;
+		font-weight: 900 !important;
+	}
+
+	h6,
+	h6 a {
+		font-size: 12px !important;
+		font-weight: normal !important;
+	}
+
+
+	/* * CODE BLOCKS */
+	/* multiple line */
+	pre {
+		background-color: var(--pdf-code-background-color) !important;
+		/* border: 1px solid var(--pdf-code-background-border-color) !important; */
+	}
+
+	/* inline */
+	:not(pre) code {
+		font-size: 14px !important;
+		color: var(--pdf-code-color) !important;
+		background-color: var(--pdf-code-background-color) !important;
+		/* border: 1px solid var(--pdf-code-background-border-color) !important; */
+	}
+
+
+	/* * QUOTE BLOCK */
+	blockquote {
+		border-color: var(--pdf-quote-border-color) !important;
+	}
+
+	/* * HIGHLIGHTED TEXT */
+	mark {
+		background-color: var(--pdf-text-highlight-bg) !important;
+	}
+
+	/* * TABLES */
+	table {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	td {
+		border: 1px solid var(--pdf-table-border) !important;
+	}
+
+	th {
+		background-color: var(--pdf-table-header-bg) !important;
+		border: 1px solid var(--pdf-table-border) !important;
+	}
+
+
+	/* * IMAGES */
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* * LINE BREAK AFTER HORIZONTAL LINE */
+	hr {
+		break-after: page;
+		visibility: hidden;
+	}
+}
+
+/* #e */

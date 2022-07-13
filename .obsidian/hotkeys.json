@@ -1,0 +1,150 @@
+{
+  "open-with-default-app:show": [],
+  "open-with-default-app:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "editor:toggle-bold": [],
+  "obsidian-languagetool-plugin:ltcheck-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ],
+  "obsidian-languagetool-plugin:ltclear": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "."
+    }
+  ],
+  "obsidian-editor-shortcuts:duplicateLine": [],
+  "obsidian-editor-shortcuts:insertLineBelow": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "1"
+    }
+  ],
+  "workspace:export-pdf": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "tag-pane:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "2"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "3"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "editor:toggle-checklist-status": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "editor:toggle-comments": [],
+  "obsidian-editor-shortcuts:insertLineAbove": [],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "command-palette:open": [],
+  "obsidian-better-command-palette:open-better-commmand-palette": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "obsidian-better-command-palette:open-better-commmand-palette-file-search": [],
+  "backlink:open": [],
+  "backlink:toggle-backlinks-in-document": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ]
+}

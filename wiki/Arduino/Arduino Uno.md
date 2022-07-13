@@ -8,4 +8,4 @@ parent: Arduino
 
 
 
-> → [ARUDINO UNO REV 3](ARUDINO UNO REV 3)
+> → [ARDUINO UNO REV 3](wiki/Pinouts/BOARDS/ARDUINO%20UNO%20REV%203.md)

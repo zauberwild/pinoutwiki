@@ -1,0 +1,9 @@
+{
+  "folderNoteHide": true,
+  "folderNoteType": "inside",
+  "folderNoteName": "_about_",
+  "folderNoteKey": "alt",
+  "folderNoteAutoRename": true,
+  "folderDelete2Note": false,
+  "folderNoteStrInit": "# {{FOLDER_NAME}} Overview\n\n\n---\n```button\nname Open folder\ntype link\naction file:///D:\\OneDrive\\Pinouts\\{{FOLDER_PATH}}\nclass button-open-folder\n```\n---\n"
+}

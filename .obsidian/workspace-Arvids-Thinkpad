@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "9aed3f2770e304bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "2142993c1bb19d68",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Physik/MOC Kernphysik.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31a40a876411abe9",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b2a63551785d713",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13836c1729433d4a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f648904c70ff9999",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sicherheitswahrscheinlichkeit",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 549
+  },
+  "right": {
+    "id": "2dd8ecb2d797274b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e4db779e7e80c5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80406ea25945295b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Physik/MOC Kernphysik.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "09d11ffd931019e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Physik/MOC Kernphysik.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "3846424f36ead6f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "58ebc7a4dd85276b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Physik/MOC Kernphysik.md"
+              }
+            }
+          },
+          {
+            "id": "2394ea2e6542ad47",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "e41b259c13ab5ea7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "e9c96a77eac604a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb1fc2195b058da8",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Physik/MOC Kernphysik.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.42967809143425173,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372,
+    "collapsed": true
+  },
+  "active": "2142993c1bb19d68",
+  "lastOpenFiles": [
+    "Physik/MOC Kernphysik.md",
+    "Physik/Alpha-Strahlung.md",
+    "Physik/Beta-Strahlung.md",
+    "Physik/Röntgen-Strahlung.md",
+    "Physik/Neutronenstrahlung.md",
+    "Physik/Gamma-Strahlung.md",
+    "Physik/Kernphysik - physik. Größen.md",
+    "Physik/Zerfallsreihen.md",
+    "Physik/Strahlenschäden.md",
+    "Physik/Nuklidkarte.md"
+  ]
+}

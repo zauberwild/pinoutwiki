@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "9aed3f2770e304bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "571d0102f6890acd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "wiki/Arduino/Arduino Nano.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31a40a876411abe9",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b2a63551785d713",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13836c1729433d4a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f648904c70ff9999",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "stonks",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 327
+  },
+  "right": {
+    "id": "2dd8ecb2d797274b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e4db779e7e80c5c",
+        "type": "tabs",
+        "dimension": 65.9433962264151,
+        "children": [
+          {
+            "id": "09d11ffd931019e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/Arduino/Arduino Nano.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "80406ea25945295b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/Arduino/Arduino Nano.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "3846424f36ead6f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "58ebc7a4dd85276b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/Arduino/Arduino Nano.md"
+              }
+            }
+          },
+          {
+            "id": "e41b259c13ab5ea7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "398205f516d23e1c",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "0a337e469a41afc6",
+        "type": "tabs",
+        "dimension": 34.056603773584904,
+        "children": [
+          {
+            "id": "cb1fc2195b058da8",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "wiki/Arduino/Arduino Nano.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.2477151585679984,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 420,
+    "collapsed": true
+  },
+  "active": "571d0102f6890acd",
+  "lastOpenFiles": [
+    "wiki/Raspberry Pi/Raspberry Pi Pico/Raspberry Pi Pico.md",
+    "wiki/Raspberry Pi/Raspberry Pi 400/Raspberry Pi 400.md",
+    "wiki/Arduino/Arduino Nano.md",
+    "wiki/Arduino/Assets/Arduino Nano 2022-07-13 16.36.46.excalidraw.md",
+    "wiki/Arduino/Arduino Uno.md",
+    "wiki/Pinouts/BOARDS/ARDUINO.md",
+    "Arduino/Arduino Uno.md",
+    "P2 - Mathematik/Ableitungsregeln.md",
+    "P5 - Betriebs- und Volkswirtschaft/Bruttoinlandsprodukt.md",
+    "P5 - Betriebs- und Volkswirtschaft/Aufgaben & Ziele der Wirtschaftspolitik (MOC).md"
+  ]
+}

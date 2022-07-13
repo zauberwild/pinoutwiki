@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#Mathe",
+      "color": {
+        "a": 1,
+        "rgb": 3693055
+      }
+    },
+    {
+      "query": "tag:#Metro",
+      "color": {
+        "a": 1,
+        "rgb": 15782200
+      }
+    },
+    {
+      "query": "tag:#Physik",
+      "color": {
+        "a": 1,
+        "rgb": 9312431
+      }
+    },
+    {
+      "query": "tag:#BVW",
+      "color": {
+        "a": 1,
+        "rgb": 3404287
+      }
+    },
+    {
+      "query": "tag:#Religion",
+      "color": {
+        "a": 1,
+        "rgb": 14408667
+      }
+    },
+    {
+      "query": "tag:#Info",
+      "color": {
+        "a": 1,
+        "rgb": 8877511
+      }
+    },
+    {
+      "query": "tag:#Englisch",
+      "color": {
+        "a": 1,
+        "rgb": 16753152
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0.1,
+  "nodeSizeMultiplier": 1.07423529411765,
+  "lineSizeMultiplier": 1.65070588235294,
+  "collapse-forces": false,
+  "centerStrength": 0.521367521367521,
+  "repelStrength": 10.017094017094,
+  "linkStrength": 1,
+  "linkDistance": 217,
+  "scale": 0.272685991736007,
+  "close": true
+}

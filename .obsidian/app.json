@@ -1,0 +1,27 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "foldHeading": true,
+  "showLineNumber": true,
+  "foldIndent": true,
+  "defaultViewMode": "source",
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./Assets",
+  "readableLineLength": true,
+  "legacyEditor": false,
+  "livePreview": true,
+  "spellcheckDictionary": [
+    "Bimetallfeder",
+    "Bimetallfeder"
+  ],
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute"
+}

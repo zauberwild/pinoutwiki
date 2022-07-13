@@ -1,0 +1,16 @@
+{
+  "usedLinks": [
+    {
+      "strictLineBreaks": true,
+      "includeEmbeds": true,
+      "linkToFiles": true,
+      "nonexistentOnly": true,
+      "excludeToFilenames": [],
+      "excludeToGlobs": [],
+      "excludeFromFilenames": [],
+      "excludeFromGlobs": [],
+      "name": "nonexistent index",
+      "path": "./linked but nonexistent.md"
+    }
+  ]
+}

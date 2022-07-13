@@ -9,6 +9,8 @@ parent: Raspberry Pi
 µc
 {: .label }
 
+> → [RASPBERRY PI PICO](/wiki/Pinouts/BOARDS/RASPBERRY%20PI%20PICO)
+
 ## Pinout
 
 ![Pinout](./assets/Pico-R3-SDK11-Pinout.svg)
