@@ -32,6 +32,7 @@ github_username:  zauberwild
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-relative-links
 
 color_scheme: wide
 search_enabled: true
