@@ -4,6 +4,8 @@
 
 body {
 	font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-feature-settings: "tnum", "case", "cv02", "cv03", "cv04", "cv07", "cv09", "cv08", "cv05", "calt";
+	font-variant-ligatures: none;
 }
 
 @media (min-width: 50rem) {

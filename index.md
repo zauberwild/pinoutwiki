@@ -9,3 +9,6 @@ nav_exclude: true
 A collection of information about Raspberry Pis, Arduinos and more.
 
 Includes a butchered version of the [Pinout Book](https://pinouts.org/)
+
+
+> [GitHub](https://github.com/zauberwild/pinoutwiki/)
