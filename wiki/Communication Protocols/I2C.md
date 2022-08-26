@@ -6,7 +6,7 @@ parent: Communication Protocols
 
 # Inter-Integrated Circuit
 
-*[Wikipedia](https://de.wikipedia.org/wiki/I%C2%B2C)*
+> → [Wikipedia](https://de.wikipedia.org/wiki/I%C2%B2C)
 
 ## Color Code
 

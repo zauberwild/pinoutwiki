@@ -6,7 +6,7 @@ parent: Communication Protocols
 
 # Universal Asynchronous Receiver Transmitter
 
-*[Wikipedia](https://de.wikipedia.org/wiki/Universal_Asynchronous_Receiver_Transmitter)*
+> →[Wikipedia](https://de.wikipedia.org/wiki/Universal_Asynchronous_Receiver_Transmitter)
 
 ## Color Code
 

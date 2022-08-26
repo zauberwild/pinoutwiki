@@ -6,7 +6,7 @@ parent: Communication Protocols
 
 # Serial Peripheral Interface
 
-*[Wikipedia](https://de.wikipedia.org/wiki/Serial_Peripheral_Interface)*
+> → [Wikipedia](https://de.wikipedia.org/wiki/Serial_Peripheral_Interface)
 
 ## Color Code
 
