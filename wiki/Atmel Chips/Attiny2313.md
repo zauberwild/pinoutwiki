@@ -8,6 +8,8 @@ parent: "Atmel Chips (Atmega / Attiny)"
 
 ## Pinout
 
+![Pinout](./Assets/Attiny2313.drawio.svg)
+
 ````
 // ATMEL ATTINY2313
 //
@@ -16,7 +18,7 @@ parent: "Atmel Chips (Atmega / Attiny)"
 // RX   (D  0) PD0  2|    |19  PB7 (D  16)
 // TX   (D  1) PD1  3|    |18  PB6 (D  15)
 //      (D  2) PA1  4|    |17  PB5 (D  14)
-//      (D  3) PA0  5|    |16  PB4 (D  13)*
+//      (D  3) PA0  5|    |16  PB4 (D  13)* LED_BUILTIN?
 // INT0 (D  4) PD2  6|    |15  PB3 (D  12)*
 // INT1 (D  5) PD3  7|    |14  PB2 (D  11)*
 //      (D  6) PD4  8|    |13  PB1 (D  10)
@@ -43,6 +45,22 @@ The following pins are defined in the ATTinyCore package for the Arduino IDE:
 Together with this comment:  
 
 > This part has a USI, not an SPI module. Accordingly, there is no MISO/MOSI in hardware. There's a DI and a DO. When the chip is used as master, DI is used as MISO, DO is MOSI; the defines here specify the pins for master mode, as SPI master is much more commonly used in Arduino-land than SPI slave, and these defines are required for compatibility. Be aware of this when using the USI SPI fucntionality (and also, be aware that the MISO and MOSI markings on the pinout diagram in the datasheet are for ISP programming, where the chip is a slave. The pinout diagram included with this core attempts to clarify this)
+
+### I²C
+
+The same file specifies these pins (line: ca. 92):  
+````c++
+static const uint8_t SDA = 14;
+static const uint8_t SCL = 16;
+````
+
+### Software Serial
+
+Same code (line ca. 135):  
+````c++
+//WARNING, if using software, TX is on AIN0, RX is on AIN1. Comparator is favoured to use its interrupt for the RX pin.
+#define USE_SOFTWARE_SERIAL           0
+````
 
 
 
